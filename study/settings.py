@@ -55,7 +55,7 @@ ROOT_URLCONF = 'study.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates','templates/fe','templates/civil','templates/comps','templates/extc','templates/mech','templates/IT'],
+        'DIRS': ['templates','templates/fe','templates/civil','templates/comps','templates/extc','templates/mech','templates/IT','study'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
