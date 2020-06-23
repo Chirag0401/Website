@@ -1,0 +1,190 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HelpMate: civil sem6 qps</title>
+
+
+    <!-- Bootstrap core CSS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="#"><img src="{% static 'images/HelpMate.jpg' %}" width="125px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="{%url 'home' %}">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+</nav>
+</div>
+<style>
+   body {
+  background-color:  #ebe8e7;
+}
+ .centerbody {
+  margin: auto;
+  width: 70%;
+  height: auto;
+  text-align: center;
+  display: block;
+  border: 0px solid #73AD21;
+  padding: 20px;
+}
+
+</style>
+<div class="container">
+  <div class="row">
+<div class="col-md-4">
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <div class="card-image"><img src="{% static 'images/Logo.png' %}" width="300 px" height="200px">
+    </div>
+    <h1 class="display-4">HelpMate</h1>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam magna diam, volutpat nec suscipit venenatis, gravida quis ipsum. Vestibulum tempus consectetur ipsum, vel ultrices urna placerat eu.</p>
+  </div>
+</div>  
+</div>
+<div class="col-md-8">
+<div class="centerbody">
+  <h3>Question Papers Of Civil Sem 6</h3>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Sr.No.</th>
+      <th scope="col">Subject</th>
+      <th scope="col">Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Geotechnical Engg 2</td>
+      <td colspan="2"><a href="#">May19</a>&nbsp;&nbsp;<a href="#">Dec19</a></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Design and Drawing of Steel Structures</td>
+      <td colspan="2"><a href="#">May19</a>&nbsp;&nbsp;<a href="#">Dec19</a></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Transportation Engineering 2</td>
+      <td colspan="2"><a href="#">May19</a>&nbsp;&nbsp;<a href="#">Dec19</a></td>
+    </tr>
+        <tr>
+      <th scope="row">4</th>
+      <td>Environmental Engineering 2</td>
+      <td colspan="2"><a href="#">May19</a>&nbsp;&nbsp;<a href="#">Dec19</a></td>
+    </tr>
+        <tr>
+      <th scope="row">5</th>
+      <td>Water Resource Engineering 1</td>
+      <td colspan="2"><a href="#">May19</a>&nbsp;&nbsp;<a href="#">Dec19</a></td>
+    </tr>
+        <tr>
+      <th scope="row">6</th>
+      <td>Advanced Construction Equipments</td>
+      <td colspan="2"><a href="#">May19</a>&nbsp;&nbsp;<a href="#">Dec19</a></td>
+    </tr>
+         <tr>
+      <th scope="row">7</th>
+      <td>Traffic Engineering and Management</td>
+      <td colspan="2"><a href="#">May19</a>&nbsp;&nbsp;<a href="#">Dec19</a></td>
+    </tr>
+     <tr>
+      <th scope="row">8</th>
+      <td>Ground Improvement Techniques</td>
+      <td colspan="2"><a href="#">May19</a>&nbsp;&nbsp;<a href="#">Dec19</a></td>
+    </tr>
+     <tr>
+      <th scope="row">9</th>
+      <td>Advanced Structural Analysis</td>
+      <td colspan="2"><a href="#">May19</a>&nbsp;&nbsp;<a href="#">Dec19</a></td>
+    </tr>
+     <tr>
+      <th scope="row">10</th>
+      <td>Software Application in Civil Engineering</td>
+      <td colspan="2"><a href="#">May19</a>&nbsp;&nbsp;<a href="#">Dec19</a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<footer>
+<section>
+<div class="container-fluid">
+  <div class="row">
+      <style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  color: black;
+}
+.fa-linkedin {
+  color: black;
+}
+.fa-instagram {
+  color: black;
+}
+.fa-pinterest {
+  color: black;
+}
+</style>
+<div class="centerbody">
+  <h4>Follow Us at</h4>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-pinterest"></a>
+ <p>
+Disclaimer: Legal information is not legal advice, <a href='/legal/disclaimer/'>read the disclaimer</a>.
+<br />
+TermsFeed &copy; 2019 - 2020
+</p>
+<p>
+<a href="/legal/privacy-policy/">Privacy Policy</a>
+<i class="icon-circle"></i>
+<a href="/legal/terms-of-use/">Terms of Use</a>
+</p>
+</div>
+</div>
+</div>
+</section>
+</footer>
+</html>
